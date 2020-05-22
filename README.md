@@ -10,11 +10,26 @@ Deployed link: https://arjaesj.github.io/Bootcamp-Homework-2/
 HTML files have beed validated using Nu HTML Checker.
 Here are the results:
 
-![Image of index.html validated results](Images/index-html-validate.png)
+![Image of index.html validated results](ReadmeImg/index-html-validate.png)
 
-![Image of portfolio.html validated results](Images/portflio-html-validate.jpg) 
+![Image of portfolio.html validated results](ReadmeImg/portflio-html-validate.jpg) 
 
-![Image of contacts.html validated results](Images/contacts-html-validate.jpg) 
+![Image of contacts.html validated results](ReadmeImg/contacts-html-validate.jpg) 
+
+
+Here are the screenshots of My Website:
+
+About Me page:
+
+![Image of About Me page](ReadmeImg/MyWebsite-About-Me.png)
+
+Portfolio page:
+
+![Image of Porftolio page](ReadmeImg/MyWebsite-Portfolio.png)
+
+Contact Me page:
+
+![Image of Contactg Me](ReadmeImg/MyWebsite-Contact-Me.png)
 
 
 

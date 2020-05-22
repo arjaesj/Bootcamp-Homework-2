@@ -12,9 +12,9 @@ Here are the results:
 
 ![Image of index.html validated results](ReadmeImg/index-html-validate.png)
 
-![Image of portfolio.html validated results](ReadmeImg/portflio-html-validate.jpg) 
+![Image of portfolio.html validated results](ReadmeImg/portfolio-html-validate.jpg) 
 
-![Image of contacts.html validated results](ReadmeImg/contacts-html-validate.jpg) 
+![Image of contacts.html validated results](ReadmeImg/contacts-html-validate.png) 
 
 
 Here are the screenshots of My Website:

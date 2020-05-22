@@ -11,20 +11,21 @@
     <link href="sticky-footer.css" rel="stylesheet">
 
     <title>Rj's Website</title>
-</head>
 
-<style>
-    /* Background Image */
-    
-    body {
-        /* This resource has been created by: http://alienvalley.com/ */
-        background-image: url("Assets/Images/watercolor-paper-background-13.jpg");
-    }
-    
-    #profile-pic {
-        margin-left: 30px;
-    }
-</style>
+    <style>
+        /* Background Image */
+        
+        body {
+            /* This resource has been created by: http://alienvalley.com/ */
+            background-image: url("Assets/Images/watercolor-paper-background-13.jpg");
+        }
+        
+        #profile-pic {
+            margin-left: 30px;
+        }
+    </style>
+
+</head>
 
 <body>
 
@@ -53,27 +54,27 @@
 
     <!-- About Me -->
     <main class="container">
-        <section class="row">
+        <div class="row">
             <!-- About me: descriptions -->
-            <section class="col-md-8">
+            <div class="col-md-8">
                 <article class="card mb-3">
                     <h3 class="card-header">About Me</h3>
                     <article class="card-body">
                         <h5 class="card-title">Hi I'm Rommel Jay San Jose</h5>
                         <h6 class="card-subtitle text-muted">but I prefer to be called Rj</h6>
                     </article>
-                    <img id="profile-pic" style="height: 200px; width: 200px; display: block;" src="Assets/Images/Profile Pic.jpg" alt="Rj Profile Pic">
-                    <section class="card-body">
+                    <img id="profile-pic" style="height: 200px; width: 200px; display: block;" src="Assets/Images/Profile-Pic.jpg" alt="Rj Profile Pic">
+                    <div class="card-body">
                         <p class="card-text">I was born and raised in the Philippines and migrated here in Perth, WA ten years ago.</p>
-                    </section>
+                    </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">I have a Bachelor's degree in Architecture but not a licensed Architect.
                         </li>
-                        <li class="list-group-item">I am a creative professional specialising in house designs but wanted to delve in Wed design & development.</li>
+                        <li class="list-group-item">I am a creative professional specialising in house designs but wanted to delve in Web design & development.</li>
                         <li class="list-group-item">I thrive in being challenged and very eager to learn.</li>
                     </ul>
                 </article>
-            </section>
+            </div>
 
             <!-- About Me: skills-->
             <aside class="col-md-4">
@@ -119,20 +120,23 @@
 
                 <!-- About Me: Hobbies -->
                 <article class="card border-dark mb-3" style="max-width: 20rem;">
-                    <header class="card-header">Hobbies</header>
+                    <h3 class="card-header">Hobbies</h3>
                     <div class="card-body">
                         <p class="card-text">I like assenbling plastic models like <a href="https://en.wikipedia.org/wiki/Gundam_model" target="_blank">Gunpla</a> and I love watching movies. I also have 2 furbabies which I play, excercise & hang out with.</p>
                     </div>
                 </article>
 
             </aside>
-        </section>
+        </div>
     </main>
 
     <!-- Sticky Footer -->
     <footer class="footer">
         <div class="container-footer">
-            <span class="text-muted"> <a href=index.html>© Rommel Jay San Jose</a>, Made with Bootstrap</span>
+            <p class="text-muted"> <a href=index.html>© Rommel Jay San Jose</a></p>
+            <p class="text-muted">Made with <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+                    perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
         </div>
     </footer>
 

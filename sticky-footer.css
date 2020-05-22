@@ -1,0 +1,41 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 100px;
+    /* Margin bottom by footer height */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.footer {
+    text-align: -webkit-center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* Set the fixed height of the footer here */
+    line-height: 2px;
+    /* Vertically center the text there */
+    background-color: #272B30;
+}
+
+
+/* Custom page CSS
+  -------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+.container-footer {
+    width: auto;
+    max-width: 680px;
+    padding: 20px 15px;
+}

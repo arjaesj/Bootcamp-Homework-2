@@ -11,20 +11,26 @@
     <link href="sticky-footer.css" rel="stylesheet">
 
     <title>Rj's Website</title>
-</head>
 
-<style>
-    /* Background Image */
-    
-    body {
-        /* This resource has been created by: http://alienvalley.com/ */
-        background-image: url("Assets/Images/watercolor-paper-background-13.jpg");
-    }
-    
-    #profile-pic {
-        margin-left: 30px;
-    }
-</style>
+    <style>
+        /* Background Image */
+        
+        body {
+            /* This resource has been created by: http://alienvalley.com/ */
+            background-image: url("Assets/Images/watercolor-paper-background-13.jpg");
+        }
+        
+        #profile-pic {
+            margin-left: 30px;
+        }
+        
+        .socials {
+            height: 20px;
+            width: 20px;
+        }
+    </style>
+
+</head>
 
 <body>
 
@@ -54,13 +60,13 @@
     <!-- Contact Me Form -->
     <main class="container">
         <section class="row">
-            <div class="col-md-10">
+            <div class="col-md-8">
                 <div class="card border-primary mb-3">
                     <div class="card-header">
                         <h3>Contact Me</h3>
                     </div>
                     <div class="card-body">
-                        <form>
+                        <form action="mailto:arjae.sj@gmail.com" method="post" enctype="text/plain">
                             <fieldset>
 
                                 <!-- My static email address -->
@@ -74,21 +80,22 @@
                                 <!-- Enter User email adress -->
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                    <small id="emailHelp" class="form-text text-muted">You're email address will never be shared.
-                                        </small>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                                    <small id="emailHelp" class="form-text text-muted">You're email address will never
+                                        be shared.
+                                    </small>
                                 </div>
 
                                 <!-- Enter Subject -->
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Subject</label>
-                                    <input type="subject" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+                                    <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Subject" name="subject">
                                 </div>
 
                                 <!-- Enter email body -->
                                 <div class="form-group">
                                     <label for="exampleTextarea">Message</label>
-                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3" name="message"></textarea>
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Submit</button>
@@ -96,16 +103,42 @@
                         </form>
                     </div>
                 </div>
-
             </div>
+
+            <!-- Contact Me: Socials-->
+            <aside class="col-md-4">
+                <article class="card border-primary mb-3" style="max-width: 20rem;">
+                    <header class="card-header">
+                        <h3>Socials</h3>
+                    </header>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <img src="Assets/Images/linkedin.png" alt="LinkedIn Logo" class="socials">
+                            <a href="www.linkedin.com/in/rommel-jay-san-jose-7b47829" target="_blank">LinkdIn</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <img src="Assets/Images/github.png" alt="Github Logo" class="socials">
+                            <a href="https://github.com/arjaesj" target="_blank">GitHub</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <img src="Assets/Images/facebook.png" alt="Facebook Logo" class="socials">
+                            <a href="https://www.facebook.com/arjae.sanjose/" target="_blank">Facebook</a>
+                        </li>
+                    </ul>
+                </article>
+            </aside>
         </section>
     </main>
+
+
 
     <!-- Sticky Footer -->
     <footer class="footer">
         <div class="container-footer">
-            <span class="text-muted"> <a href=index.html>© Rommel Jay San Jose</a>, Made with
-                Bootstrap</span>
+            <p class="text-muted"> <a href=index.html>© Rommel Jay San Jose</a></p>
+            <p class="text-muted">Made with <a href="https://getbootstrap.com/">Bootstrap</a></p>
+            <p>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+                    perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
         </div>
     </footer>
 

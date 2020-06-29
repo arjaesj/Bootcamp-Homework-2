@@ -1,0 +1,15 @@
+     /* Background Image */
+     
+     body {
+         /* This resource has been created by: http://alienvalley.com/ */
+         background-image: url("../Images/watercolor-paper-background-13.jpg");
+     }
+     
+     #profile-pic {
+         margin-left: 30px;
+     }
+     
+     .socials {
+         height: 20px;
+         width: 20px;
+     }

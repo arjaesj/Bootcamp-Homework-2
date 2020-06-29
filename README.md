@@ -5,7 +5,7 @@ Repository contains files for My Website which have the following pages: About m
 
 The website was constructed using Bootstrap elements and Bootswatch Slate theme and should be responsive.
 
-Deployed link: https://arjaesj.github.io/Bootcamp-Homework-2/
+Deployed link: https://arjaesj.github.io/portfolio/.
 
 HTML files have beed validated using Nu HTML Checker.
 Here are the results:

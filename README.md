@@ -1,5 +1,4 @@
-# Bootcamp-Homework-2
-UWA Coding Bootcamp Homework for Week 2
+# Portfolio
 
 Repository contains files for My Website which have the following pages: About me, Portfolio & Contact Me.
 

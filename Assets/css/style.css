@@ -13,3 +13,13 @@
          height: 20px;
          width: 20px;
      }
+     
+     #download {
+         margin-left: 10px;
+     }
+     
+     .col-form-label,
+     .form-control-plaintext {
+         padding: 5px;
+         line-height: 1;
+     }
